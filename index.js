@@ -61,7 +61,7 @@ function start(file) {
       start(file)
     })
   })
-  let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+  let opts = new Object(process.argv.slice(2)).exitProcess(false).parse()
   if (!opts['test'])
     if (!rl.listenerCount()) rl.on('line', line => {
       p.emit('message', line.trim())
