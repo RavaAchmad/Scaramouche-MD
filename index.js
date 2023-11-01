@@ -1,6 +1,6 @@
 console.log('Memulai...')
 
-import yargs from 'yargs'
+//import yargs from 'yargs'
 import cfonts from 'cfonts'
 import { fileURLToPath } from 'url'
 import { join, dirname } from 'path'
